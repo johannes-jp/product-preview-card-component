@@ -10,17 +10,25 @@ module.exports = {
         'Desktop': '1440px',
       },
 
-      // colors: {
+      colors: {
       //   'White': 'hsl(0, 0%, 100%)',
       //   'Light gray': 'hsl(212, 45%, 89%)',
       //   'Grayish blue': 'hsl(220, 15%, 55%)',
-      //   'Dark blue': 'hsl(218, 44%, 22%)',
-      // },
+        // 'Dark blue': 'hsl(218, 44%, 22%)',
+        'Dark-cyan': 'hsl(158, 36%, 37%)',
+        'Dark-cyan-hover': 'hsl(158, 36%, 24%)',
+        'Cream': 'hsl(30, 38%, 92%)',
+        'Very-dark-blue': 'hsl(212, 21%, 14%)',
+        'Dark-grayish-blue': 'hsl(228, 12%, 48%)',
+        'White': 'hsl(0, 0%, 100%)',
+      },
 
-      // fontFamily: {
-      //   'Outfit': ['Outfit', 'sans-sarif'],
-      // },
-  
+      // <p> 14px
+
+      fontFamily: {
+        'Montserrat': ['Montserrat'],
+        'Fraunces': ['Fraunces'],
+      },
 
     },
   },
