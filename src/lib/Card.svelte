@@ -1,25 +1,24 @@
-<script>
-    export let productImageMobile
-    export let productImageDesktop
-    export let productType
-    export let headingText
-    export let bodyText
-    export let altText
-    export let salePrice
-    export let originalPrice
-    
+<script lang="ts">
+    export let productImageMobile:string
+    export let productImageDesktop: string
+    export let productType: string
+    export let headingText: string
+    export let bodyText: string
+    export let altText: string
+    export let salePrice: number
+    export let originalPrice: number
 
     import CartButton from "./CartButton.svelte";
 </script>
 
-<div class="flex flex-col max-w-xs rounded-lg Mobile:max-w-lg my-4 mt-8 bg-white">
+<div class="flex Mobile:flex-row flex-col max-w-xs rounded-lg Mobile:max-w-xl my-4 mt-8 bg-white">
 
 
-    <img class="hidden Mobile:block" src={productImageDesktop}>
+    <img class="hidden w-1/2 brightness-70 rounded-l-lg Mobile:block" src={productImageDesktop} alt={altText}>
 
     <img class="Mobile:hidden rounded-t-lg mb-2 brightness-90" src={productImageMobile} alt={altText}>
 
-    <div class="flex flex-col m-4 items-top gap-3">
+    <div class="flex flex-col m-4 Mobile:m-8 items-top gap-3 Mobile:gap-4">
 
         <h2 class="uppercase font-Montserrat tracking-[0.3em] font-medium text-[13px] text-Dark-grayish-blue">{productType}</h2>
 
@@ -35,7 +34,7 @@
             <p class="text-[14px] text-Dark-grayish-blue font-Montserrat line-through">${originalPrice}</p>
         </div>
 
-        <div class="py-2">
+        <div class="pt-3">
             <CartButton />
         </div>
     </div>

@@ -30,4 +30,6 @@
 />
 </div>
 
-<Footer/>
+<div class="mt-4">
+    <Footer/>
+</div>
