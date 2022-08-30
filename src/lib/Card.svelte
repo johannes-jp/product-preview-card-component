@@ -14,7 +14,7 @@
 <div class="flex sm:flex-row flex-col max-w-xs rounded-lg sm:max-w-xl my-4 mt-8 bg-white">
 
 
-    <img class="hidden w-1/2 brightness-90 rounded-l-lg sm:inline" src={productImageDesktop} alt={altText}>
+    <img class="hidden w-1/2 brightness-90 rounded-l-lg sm:inline shrink-0" src={productImageDesktop} alt={altText}>
 
     <img class="sm:hidden rounded-t-lg mb-2 brightness-90" src={productImageMobile} alt={altText}>
 
