@@ -11,14 +11,14 @@
     import CartButton from "./CartButton.svelte";
 </script>
 
-<div class="flex Mobile:flex-row flex-col max-w-xs rounded-lg Mobile:max-w-xl my-4 mt-8 bg-white">
+<div class="flex sm:flex-row flex-col max-w-xs rounded-lg sm:max-w-xl my-4 mt-8 bg-white">
 
 
-    <img class="hidden w-1/2 brightness-70 rounded-l-lg Mobile:block" src={productImageDesktop} alt={altText}>
+    <img class="hidden w-1/2 brightness-90 rounded-l-lg sm:inline" src={productImageDesktop} alt={altText}>
 
-    <img class="Mobile:hidden rounded-t-lg mb-2 brightness-90" src={productImageMobile} alt={altText}>
+    <img class="sm:hidden rounded-t-lg mb-2 brightness-90" src={productImageMobile} alt={altText}>
 
-    <div class="flex flex-col m-4 Mobile:m-8 items-top gap-3 Mobile:gap-4">
+    <div class="flex flex-col m-4 sm:m-8 items-top gap-3 sm:gap-4">
 
         <h2 class="uppercase font-Montserrat tracking-[0.3em] font-medium text-[13px] text-Dark-grayish-blue">{productType}</h2>
 

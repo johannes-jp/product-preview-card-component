@@ -36,14 +36,14 @@
     "webpack-cli": "^4.10.0"
   },
   "type": "module",
-  "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
+  "description": "A simple responsive card component with 1 breakpoint. (https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub/product-preview-card-component-_CLXYMWyCj).",
   "main": "svelte.config.js",
   "directories": {
     "test": "tests"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johannes-jp/REPOSITORY-NAME.git"
+    "url": "git+https://github.com/johannes-jp/product-preview-card-component.git"
   },
   "author": "",
   "license": "ISC",
